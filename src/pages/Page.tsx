@@ -51,7 +51,7 @@ const Page: React.FC = () => {
             <IonTitle size="large">{name}</IonTitle>
           </IonToolbar>
         </IonHeader>
-        
+        <p>Hello World! This is finally working!</p>
         {cardContent.map((item, index) => (
           <IonCard key={index}>
             <img
