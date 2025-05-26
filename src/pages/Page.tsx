@@ -24,14 +24,14 @@ const Page: React.FC = () => {
       content: "This is the content for item 3.",
     },
     {
-      title: "Item 4",
+      title: "main",
       subtitle:" Subtitle 4",
       content: "This is the content for item 4.",
     },
     {
-      title: "Item 5",
+      title: "HEllo",
       subtitle:" Subtitle 5",
-      content: "This is the content for item 5.",
+      content: "This is the content for item 6.",
     }
   ];
   return (
@@ -51,7 +51,7 @@ const Page: React.FC = () => {
             <IonTitle size="large">{name}</IonTitle>
           </IonToolbar>
         </IonHeader>
-        
+        <p>hello</p>
         {cardContent.map((item, index) => (
           <IonCard key={index}>
             <img
